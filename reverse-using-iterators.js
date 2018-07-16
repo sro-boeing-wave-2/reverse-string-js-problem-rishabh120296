@@ -2,8 +2,7 @@
 const reverse = (inputString) => {
   const { length } = inputString;
   let reverseString = '';
-  let i = 0;
-  for (i = 0; i < length; i += 1) {
+  for (let i = 0; i < length; i += 1) {
     reverseString += inputString.charAt(length - i - 1);
   }
   return reverseString;
